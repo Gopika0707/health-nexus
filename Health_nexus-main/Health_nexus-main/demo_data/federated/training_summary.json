@@ -1,0 +1,251 @@
+{
+  "data_dir": "demo_data\\federated",
+  "rounds": 8,
+  "local_epochs": 5,
+  "learning_rate": 0.8,
+  "noise_multiplier": 0.0,
+  "hospitals": [
+    "NODE-001",
+    "NODE-002",
+    "NODE-003"
+  ],
+  "feature_count": 23,
+  "weights": [
+    -0.1637536219457114,
+    0.05012563457271245,
+    0.07719178329042103,
+    0.059137363448263335,
+    0.2694613890653724,
+    -0.13213131696734887,
+    -0.38882592431791024,
+    1.3731385972787673,
+    0.005440253952182037,
+    -0.029831550580418687,
+    -0.29057587948240443,
+    -1.8384301308351352,
+    -0.1314638850180933,
+    0.25607235157791597,
+    0.4189343188406047,
+    0.31025440929947035,
+    0.5382018750065033,
+    -0.35570729526217704,
+    0.32005868592226283,
+    0.30968332541545013,
+    -0.10790704631786405,
+    0.0,
+    -0.4810948458683132
+  ],
+  "bias": -0.3149671761106411,
+  "history": [
+    {
+      "round_number": 1,
+      "global_accuracy": 78.33,
+      "global_loss": 0.5876,
+      "nodes_participated": 3,
+      "local_metrics": [
+        {
+          "node_id": "NODE-001",
+          "samples": 120,
+          "accuracy": 80.0,
+          "loss": 0.5741
+        },
+        {
+          "node_id": "NODE-002",
+          "samples": 120,
+          "accuracy": 80.83,
+          "loss": 0.5717
+        },
+        {
+          "node_id": "NODE-003",
+          "samples": 120,
+          "accuracy": 79.17,
+          "loss": 0.5899
+        }
+      ]
+    },
+    {
+      "round_number": 2,
+      "global_accuracy": 78.89,
+      "global_loss": 0.5302,
+      "nodes_participated": 3,
+      "local_metrics": [
+        {
+          "node_id": "NODE-001",
+          "samples": 120,
+          "accuracy": 80.0,
+          "loss": 0.5153
+        },
+        {
+          "node_id": "NODE-002",
+          "samples": 120,
+          "accuracy": 80.83,
+          "loss": 0.5147
+        },
+        {
+          "node_id": "NODE-003",
+          "samples": 120,
+          "accuracy": 79.17,
+          "loss": 0.5369
+        }
+      ]
+    },
+    {
+      "round_number": 3,
+      "global_accuracy": 79.17,
+      "global_loss": 0.4956,
+      "nodes_participated": 3,
+      "local_metrics": [
+        {
+          "node_id": "NODE-001",
+          "samples": 120,
+          "accuracy": 80.83,
+          "loss": 0.4793
+        },
+        {
+          "node_id": "NODE-002",
+          "samples": 120,
+          "accuracy": 80.83,
+          "loss": 0.4802
+        },
+        {
+          "node_id": "NODE-003",
+          "samples": 120,
+          "accuracy": 79.17,
+          "loss": 0.5053
+        }
+      ]
+    },
+    {
+      "round_number": 4,
+      "global_accuracy": 79.44,
+      "global_loss": 0.4725,
+      "nodes_participated": 3,
+      "local_metrics": [
+        {
+          "node_id": "NODE-001",
+          "samples": 120,
+          "accuracy": 80.83,
+          "loss": 0.455
+        },
+        {
+          "node_id": "NODE-002",
+          "samples": 120,
+          "accuracy": 80.83,
+          "loss": 0.4571
+        },
+        {
+          "node_id": "NODE-003",
+          "samples": 120,
+          "accuracy": 79.17,
+          "loss": 0.4847
+        }
+      ]
+    },
+    {
+      "round_number": 5,
+      "global_accuracy": 79.72,
+      "global_loss": 0.4559,
+      "nodes_participated": 3,
+      "local_metrics": [
+        {
+          "node_id": "NODE-001",
+          "samples": 120,
+          "accuracy": 80.83,
+          "loss": 0.4374
+        },
+        {
+          "node_id": "NODE-002",
+          "samples": 120,
+          "accuracy": 80.83,
+          "loss": 0.4405
+        },
+        {
+          "node_id": "NODE-003",
+          "samples": 120,
+          "accuracy": 79.17,
+          "loss": 0.4699
+        }
+      ]
+    },
+    {
+      "round_number": 6,
+      "global_accuracy": 80.0,
+      "global_loss": 0.4431,
+      "nodes_participated": 3,
+      "local_metrics": [
+        {
+          "node_id": "NODE-001",
+          "samples": 120,
+          "accuracy": 80.83,
+          "loss": 0.4237
+        },
+        {
+          "node_id": "NODE-002",
+          "samples": 120,
+          "accuracy": 80.83,
+          "loss": 0.4278
+        },
+        {
+          "node_id": "NODE-003",
+          "samples": 120,
+          "accuracy": 79.17,
+          "loss": 0.4586
+        }
+      ]
+    },
+    {
+      "round_number": 7,
+      "global_accuracy": 80.56,
+      "global_loss": 0.4328,
+      "nodes_participated": 3,
+      "local_metrics": [
+        {
+          "node_id": "NODE-001",
+          "samples": 120,
+          "accuracy": 81.67,
+          "loss": 0.4127
+        },
+        {
+          "node_id": "NODE-002",
+          "samples": 120,
+          "accuracy": 80.83,
+          "loss": 0.4175
+        },
+        {
+          "node_id": "NODE-003",
+          "samples": 120,
+          "accuracy": 79.17,
+          "loss": 0.4495
+        }
+      ]
+    },
+    {
+      "round_number": 8,
+      "global_accuracy": 80.56,
+      "global_loss": 0.4241,
+      "nodes_participated": 3,
+      "local_metrics": [
+        {
+          "node_id": "NODE-001",
+          "samples": 120,
+          "accuracy": 82.5,
+          "loss": 0.4035
+        },
+        {
+          "node_id": "NODE-002",
+          "samples": 120,
+          "accuracy": 80.83,
+          "loss": 0.4089
+        },
+        {
+          "node_id": "NODE-003",
+          "samples": 120,
+          "accuracy": 80.0,
+          "loss": 0.4418
+        }
+      ]
+    }
+  ],
+  "final_accuracy": 80.56,
+  "final_loss": 0.4241
+}

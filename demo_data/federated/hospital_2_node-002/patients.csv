@@ -1,0 +1,121 @@
+patient_id,hospital_node,age,gender,systolic_bp,diastolic_bp,sugar_level,cholesterol,ecg,heart_rate,oxygen_level,previous_disease_history,condition,risk_level,risk_score,diagnosis_label
+PNX-020001,NODE-002,78,other,137,92,133,153,normal,63,90,routine preventive follow-up,Low Immediate Risk,Moderate,53,0
+PNX-020002,NODE-002,65,other,154,77,128,191,irregular qrs,72,93,"palpitations, rhythm irregularity",Arrhythmia,Moderate,63,0
+PNX-020003,NODE-002,50,male,170,79,221,177,normal sinus rhythm,84,97,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,54,0
+PNX-020004,NODE-002,39,male,145,92,97,175,normal sinus rhythm,92,94,"hypertension, lifestyle risk",Hypertension,Low,28,0
+PNX-020005,NODE-002,57,other,142,104,204,222,irregular qrs,95,99,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,84,1
+PNX-020006,NODE-002,34,female,144,77,89,190,normal sinus rhythm,102,94,routine preventive follow-up,Low Immediate Risk,Low,28,0
+PNX-020007,NODE-002,37,female,136,91,193,282,st depression,78,90,"type 2 diabetes, obesity risk",Type 2 Diabetes,Critical,100,1
+PNX-020008,NODE-002,66,female,163,72,102,278,sinus tachycardia,94,99,"palpitations, rhythm irregularity",Arrhythmia,High,76,1
+PNX-020009,NODE-002,71,female,151,87,112,197,normal,96,99,"hypertension, lifestyle risk",Hypertension,Low,28,0
+PNX-020010,NODE-002,66,other,133,78,216,192,normal,103,98,"type 2 diabetes, obesity risk",Type 2 Diabetes,Low,34,0
+PNX-020011,NODE-002,67,male,164,85,220,195,normal sinus rhythm,91,100,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,54,0
+PNX-020012,NODE-002,41,male,116,106,201,229,sinus tachycardia,68,97,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,84,1
+PNX-020013,NODE-002,32,male,124,95,228,156,irregular qrs,93,98,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,64,0
+PNX-020014,NODE-002,46,male,126,103,189,194,normal,69,100,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,54,0
+PNX-020015,NODE-002,30,other,165,99,205,183,normal sinus rhythm,59,99,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,54,0
+PNX-020016,NODE-002,63,female,128,71,192,263,st depression,118,95,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,62,0
+PNX-020017,NODE-002,53,other,138,69,218,206,atrial ectopy,61,96,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,64,0
+PNX-020018,NODE-002,77,male,178,70,121,247,sinus tachycardia,101,96,"palpitations, rhythm irregularity",Arrhythmia,High,76,1
+PNX-020019,NODE-002,67,male,137,82,174,212,normal,116,90,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,53,0
+PNX-020020,NODE-002,39,female,143,106,227,232,normal sinus rhythm,112,92,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,72,1
+PNX-020021,NODE-002,38,male,164,95,180,270,st depression,104,100,"type 2 diabetes, obesity risk",Type 2 Diabetes,Critical,92,1
+PNX-020022,NODE-002,39,other,169,93,144,163,normal,103,99,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,45,0
+PNX-020023,NODE-002,71,male,161,104,178,186,atrial ectopy,118,96,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,65,1
+PNX-020024,NODE-002,27,female,138,82,190,245,atrial ectopy,104,97,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,72,1
+PNX-020025,NODE-002,35,female,153,102,94,219,atrial ectopy,80,92,"palpitations, rhythm irregularity",Arrhythmia,High,68,1
+PNX-020026,NODE-002,27,female,152,81,168,285,irregular qrs,80,99,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,73,1
+PNX-020027,NODE-002,29,other,114,91,124,240,st depression,88,99,"hypertension, dyslipidemia",Coronary Artery Disease,High,66,1
+PNX-020028,NODE-002,44,male,137,107,111,257,normal sinus rhythm,108,90,"hypertension, dyslipidemia",Coronary Artery Disease,High,74,1
+PNX-020029,NODE-002,62,female,121,70,95,173,irregular qrs,86,90,"palpitations, rhythm irregularity",Arrhythmia,Low,38,0
+PNX-020030,NODE-002,66,female,154,78,177,263,normal,72,93,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,61,0
+PNX-020031,NODE-002,42,female,156,95,176,200,normal,62,97,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,45,0
+PNX-020032,NODE-002,28,male,147,90,201,174,st depression,92,91,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,82,1
+PNX-020033,NODE-002,26,male,160,86,208,185,irregular qrs,91,100,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,74,1
+PNX-020034,NODE-002,72,other,127,93,114,174,normal,100,100,routine preventive follow-up,Low Immediate Risk,Low,28,0
+PNX-020035,NODE-002,77,female,121,99,147,168,normal sinus rhythm,95,95,"type 2 diabetes, obesity risk",Type 2 Diabetes,Low,35,0
+PNX-020036,NODE-002,37,male,142,69,162,176,irregular qrs,60,92,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,63,0
+PNX-020037,NODE-002,34,male,125,77,173,205,st depression,63,98,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,45,0
+PNX-020038,NODE-002,71,other,121,69,210,256,st depression,106,90,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,80,1
+PNX-020039,NODE-002,30,female,165,90,131,214,normal sinus rhythm,109,94,"hypertension, lifestyle risk",Hypertension,Moderate,63,0
+PNX-020040,NODE-002,30,male,138,80,154,250,sinus tachycardia,107,95,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,63,0
+PNX-020041,NODE-002,59,female,137,102,142,245,atrial ectopy,82,99,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,83,1
+PNX-020042,NODE-002,48,female,117,107,169,216,normal,88,100,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,55,0
+PNX-020043,NODE-002,51,other,178,105,135,195,sinus tachycardia,89,96,"palpitations, rhythm irregularity",Arrhythmia,High,65,1
+PNX-020044,NODE-002,37,other,126,69,153,198,sinus tachycardia,99,94,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,43,0
+PNX-020045,NODE-002,42,other,147,82,89,268,st depression,73,92,"hypertension, lifestyle risk",Hypertension,High,66,1
+PNX-020046,NODE-002,25,female,113,97,122,242,sinus tachycardia,74,95,"palpitations, rhythm irregularity",Arrhythmia,High,66,1
+PNX-020047,NODE-002,31,other,145,90,128,212,sinus tachycardia,96,100,"palpitations, rhythm irregularity",Arrhythmia,High,65,1
+PNX-020048,NODE-002,55,female,158,74,153,211,normal,73,97,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,45,0
+PNX-020049,NODE-002,60,other,135,109,210,266,sinus tachycardia,103,91,"type 2 diabetes, obesity risk",Type 2 Diabetes,Critical,110,1
+PNX-020050,NODE-002,62,male,128,96,170,212,st depression,94,95,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,65,1
+PNX-020051,NODE-002,67,other,149,81,214,254,sinus tachycardia,90,92,"type 2 diabetes, obesity risk",Type 2 Diabetes,Critical,90,1
+PNX-020052,NODE-002,37,male,143,72,221,209,sinus tachycardia,66,100,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,74,1
+PNX-020053,NODE-002,70,male,117,107,172,196,atrial ectopy,92,94,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,73,1
+PNX-020054,NODE-002,30,male,131,88,82,185,normal,104,93,routine preventive follow-up,Low Immediate Risk,Low,18,0
+PNX-020055,NODE-002,38,other,153,72,133,273,st depression,82,93,"hypertension, lifestyle risk",Hypertension,High,81,1
+PNX-020056,NODE-002,72,male,125,87,178,265,sinus tachycardia,118,90,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,81,1
+PNX-020057,NODE-002,32,other,118,103,167,201,sinus tachycardia,116,100,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,75,1
+PNX-020058,NODE-002,45,female,164,103,218,276,sinus tachycardia,105,93,"type 2 diabetes, obesity risk",Type 2 Diabetes,Critical,100,1
+PNX-020059,NODE-002,35,female,166,87,158,282,st depression,92,92,"type 2 diabetes, obesity risk",Type 2 Diabetes,Critical,91,1
+PNX-020060,NODE-002,56,male,140,81,185,229,atrial ectopy,96,90,"type 2 diabetes, obesity risk",Type 2 Diabetes,Critical,92,1
+PNX-020061,NODE-002,66,male,152,105,89,230,normal sinus rhythm,65,98,"hypertension, lifestyle risk",Hypertension,Moderate,40,0
+PNX-020062,NODE-002,28,other,161,69,217,224,sinus tachycardia,64,95,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,84,1
+PNX-020063,NODE-002,71,female,119,97,222,153,normal,81,98,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,44,0
+PNX-020064,NODE-002,46,female,125,94,182,240,sinus tachycardia,89,98,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,82,1
+PNX-020065,NODE-002,75,male,146,97,166,213,atrial ectopy,81,100,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,65,1
+PNX-020066,NODE-002,71,male,173,79,215,207,st depression,99,99,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,84,1
+PNX-020067,NODE-002,51,female,134,92,157,249,normal sinus rhythm,106,95,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,53,0
+PNX-020068,NODE-002,52,other,127,106,184,190,sinus tachycardia,118,99,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,74,1
+PNX-020069,NODE-002,74,other,160,81,225,205,irregular qrs,83,94,"type 2 diabetes, obesity risk",Type 2 Diabetes,Critical,92,1
+PNX-020070,NODE-002,34,female,119,77,182,198,normal,71,94,"type 2 diabetes, obesity risk",Type 2 Diabetes,Low,32,0
+PNX-020071,NODE-002,38,other,125,89,126,189,normal sinus rhythm,96,93,routine preventive follow-up,Low Immediate Risk,Low,33,0
+PNX-020072,NODE-002,37,female,119,98,149,173,sinus tachycardia,94,90,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,73,1
+PNX-020073,NODE-002,46,female,114,108,179,195,atrial ectopy,105,97,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,65,1
+PNX-020074,NODE-002,66,male,175,69,224,195,sinus tachycardia,94,100,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,74,1
+PNX-020075,NODE-002,67,other,157,71,224,180,st depression,81,99,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,64,0
+PNX-020076,NODE-002,52,male,170,98,115,285,irregular qrs,98,92,"palpitations, rhythm irregularity",Arrhythmia,High,84,1
+PNX-020077,NODE-002,34,other,158,107,179,230,normal,69,94,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,63,0
+PNX-020078,NODE-002,26,female,128,84,98,255,sinus tachycardia,104,99,"palpitations, rhythm irregularity",Arrhythmia,Low,38,0
+PNX-020079,NODE-002,64,female,141,71,149,270,irregular qrs,58,92,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,81,1
+PNX-020080,NODE-002,36,other,117,103,216,187,normal,70,93,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,62,0
+PNX-020081,NODE-002,50,other,178,101,137,210,normal sinus rhythm,97,92,"hypertension, lifestyle risk",Hypertension,Moderate,63,0
+PNX-020082,NODE-002,32,male,126,100,114,258,st depression,80,98,"hypertension, dyslipidemia",Coronary Artery Disease,High,76,1
+PNX-020083,NODE-002,82,other,131,99,155,248,normal sinus rhythm,107,92,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,61,0
+PNX-020084,NODE-002,38,male,114,104,194,166,st depression,115,95,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,74,1
+PNX-020085,NODE-002,76,female,129,82,119,221,sinus tachycardia,73,94,"palpitations, rhythm irregularity",Arrhythmia,Moderate,46,0
+PNX-020086,NODE-002,56,male,174,109,167,279,st depression,76,94,"type 2 diabetes, obesity risk",Type 2 Diabetes,Critical,91,1
+PNX-020087,NODE-002,81,female,156,100,156,249,sinus tachycardia,113,94,"type 2 diabetes, obesity risk",Type 2 Diabetes,Critical,91,1
+PNX-020088,NODE-002,39,male,162,89,226,180,atrial ectopy,92,91,"type 2 diabetes, obesity risk",Type 2 Diabetes,Critical,92,1
+PNX-020089,NODE-002,53,male,165,80,102,217,sinus tachycardia,94,93,"palpitations, rhythm irregularity",Arrhythmia,High,76,1
+PNX-020090,NODE-002,67,other,134,96,156,229,normal sinus rhythm,92,99,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,45,0
+PNX-020091,NODE-002,52,other,135,96,100,244,st depression,64,90,"hypertension, dyslipidemia",Coronary Artery Disease,High,84,1
+PNX-020092,NODE-002,36,male,150,76,158,153,normal,118,94,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,43,0
+PNX-020093,NODE-002,46,female,166,101,129,285,sinus tachycardia,118,90,"palpitations, rhythm irregularity",Arrhythmia,Critical,101,1
+PNX-020094,NODE-002,37,male,178,68,155,230,normal sinus rhythm,111,93,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,63,0
+PNX-020095,NODE-002,71,female,140,69,186,223,normal sinus rhythm,89,94,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,62,0
+PNX-020096,NODE-002,24,male,152,80,198,189,atrial ectopy,92,96,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,64,0
+PNX-020097,NODE-002,64,other,120,100,85,217,normal,114,92,routine preventive follow-up,Low Immediate Risk,Moderate,48,0
+PNX-020098,NODE-002,82,female,126,100,187,201,sinus tachycardia,66,97,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,84,1
+PNX-020099,NODE-002,39,female,117,109,207,174,st depression,103,93,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,82,1
+PNX-020100,NODE-002,39,male,164,85,125,223,normal sinus rhythm,111,95,"hypertension, lifestyle risk",Hypertension,Moderate,48,0
+PNX-020101,NODE-002,77,other,167,75,116,197,irregular qrs,91,98,"palpitations, rhythm irregularity",Arrhythmia,Moderate,58,0
+PNX-020102,NODE-002,54,female,136,88,101,230,sinus tachycardia,73,94,"palpitations, rhythm irregularity",Arrhythmia,Moderate,56,0
+PNX-020103,NODE-002,46,male,175,108,139,211,st depression,117,94,"hypertension, lifestyle risk",Hypertension,High,83,1
+PNX-020104,NODE-002,41,male,129,107,148,151,atrial ectopy,77,96,"type 2 diabetes, obesity risk",Type 2 Diabetes,High,65,1
+PNX-020105,NODE-002,72,male,121,107,126,218,normal sinus rhythm,86,94,routine preventive follow-up,Low Immediate Risk,Moderate,63,0
+PNX-020106,NODE-002,27,female,162,104,160,282,sinus tachycardia,80,93,"type 2 diabetes, obesity risk",Type 2 Diabetes,Critical,91,1
+PNX-020107,NODE-002,38,male,111,75,110,203,irregular qrs,62,94,"palpitations, rhythm irregularity",Arrhythmia,Moderate,46,0
+PNX-020108,NODE-002,77,female,157,89,135,156,irregular qrs,59,91,"palpitations, rhythm irregularity",Arrhythmia,High,73,1
+PNX-020109,NODE-002,43,female,158,72,94,188,sinus tachycardia,97,96,"palpitations, rhythm irregularity",Arrhythmia,Moderate,40,0
+PNX-020110,NODE-002,39,male,150,71,106,250,normal sinus rhythm,97,99,"hypertension, lifestyle risk",Hypertension,Moderate,46,0
+PNX-020111,NODE-002,29,female,122,95,84,231,normal sinus rhythm,75,93,routine preventive follow-up,Low Immediate Risk,Low,38,0
+PNX-020112,NODE-002,66,other,110,105,89,251,st depression,103,100,"hypertension, dyslipidemia",Coronary Artery Disease,High,68,1
+PNX-020113,NODE-002,47,other,154,89,128,156,sinus tachycardia,62,90,"palpitations, rhythm irregularity",Arrhythmia,High,73,1
+PNX-020114,NODE-002,44,male,139,89,210,225,sinus tachycardia,94,99,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,64,0
+PNX-020115,NODE-002,71,male,174,77,128,163,atrial ectopy,77,94,"palpitations, rhythm irregularity",Arrhythmia,High,73,1
+PNX-020116,NODE-002,27,other,116,95,142,191,atrial ectopy,73,99,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,55,0
+PNX-020117,NODE-002,53,other,147,103,126,239,atrial ectopy,68,92,"palpitations, rhythm irregularity",Arrhythmia,High,83,1
+PNX-020118,NODE-002,70,other,144,70,100,173,normal sinus rhythm,87,91,routine preventive follow-up,Low Immediate Risk,Moderate,46,0
+PNX-020119,NODE-002,53,female,125,83,197,178,st depression,80,93,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,52,0
+PNX-020120,NODE-002,35,female,153,90,157,156,st depression,104,100,"type 2 diabetes, obesity risk",Type 2 Diabetes,Moderate,55,0

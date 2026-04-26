@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-03-10T15:31:17Z",
+  "seed": 42,
+  "hospitals": [
+    {
+      "node_id": "NODE-001",
+      "hospital_name": "Metro General Hospital",
+      "location": "Chennai",
+      "folder": "hospital_1_node-001",
+      "patient_count": 120,
+      "timeseries_rows": 3600,
+      "image_rows": 120
+    },
+    {
+      "node_id": "NODE-002",
+      "hospital_name": "South City Care",
+      "location": "Bengaluru",
+      "folder": "hospital_2_node-002",
+      "patient_count": 120,
+      "timeseries_rows": 3600,
+      "image_rows": 120
+    },
+    {
+      "node_id": "NODE-003",
+      "hospital_name": "Lakeside Multispeciality",
+      "location": "Hyderabad",
+      "folder": "hospital_3_node-003",
+      "patient_count": 120,
+      "timeseries_rows": 3600,
+      "image_rows": 120
+    }
+  ],
+  "patients_per_hospital": 120,
+  "time_steps": 30,
+  "image_size": 64,
+  "files": [
+    "patients.csv",
+    "vitals_timeseries.csv",
+    "image_manifest.csv"
+  ]
+}

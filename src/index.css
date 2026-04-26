@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Syne:wght@400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Health Nexus Design System */
+    --background: 210 20% 98%;
+    --foreground: 220 25% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 10%;
+
+    /* Deep Medical Blue */
+    --primary: 214 84% 40%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 214 84% 55%;
+    --primary-deep: 214 84% 28%;
+
+    /* Teal Secondary */
+    --secondary: 174 72% 36%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 210 20% 94%;
+    --muted-foreground: 220 15% 50%;
+
+    /* Cyan Accent */
+    --accent: 195 85% 48%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 25% 88%;
+    --input: 214 25% 92%;
+    --ring: 214 84% 40%;
+
+    --radius: 0.75rem;
+
+    /* Health Status Colors */
+    --status-normal: 142 72% 40%;
+    --status-warning: 38 92% 50%;
+    --status-critical: 0 84% 55%;
+    --status-info: 214 84% 55%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(214 84% 28%) 0%, hsl(195 85% 35%) 50%, hsl(174 72% 30%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(214 40% 97%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(214 84% 40%) 0%, hsl(195 85% 48%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(174 72% 36%) 0%, hsl(195 85% 48%) 100%);
+    --gradient-danger: linear-gradient(135deg, hsl(0 84% 55%) 0%, hsl(20 90% 55%) 100%);
+    --gradient-sidebar: linear-gradient(180deg, hsl(214 84% 22%) 0%, hsl(214 84% 16%) 100%);
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px hsl(214 84% 40% / 0.08);
+    --shadow-md: 0 4px 20px hsl(214 84% 40% / 0.12);
+    --shadow-lg: 0 8px 40px hsl(214 84% 40% / 0.16);
+    --shadow-glow: 0 0 30px hsl(214 84% 55% / 0.25);
+
+    --sidebar-background: 214 84% 16%;
+    --sidebar-foreground: 214 30% 85%;
+    --sidebar-primary: 195 85% 55%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 214 50% 25%;
+    --sidebar-accent-foreground: 214 30% 90%;
+    --sidebar-border: 214 50% 22%;
+    --sidebar-ring: 195 85% 55%;
+  }
+
+  .dark {
+    --background: 220 25% 8%;
+    --foreground: 210 20% 95%;
+    --card: 220 25% 11%;
+    --card-foreground: 210 20% 95%;
+    --popover: 220 25% 11%;
+    --popover-foreground: 210 20% 95%;
+    --primary: 214 84% 55%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 174 72% 45%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 220 25% 16%;
+    --muted-foreground: 215 20% 55%;
+    --accent: 195 85% 55%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 25% 20%;
+    --input: 220 25% 18%;
+    --ring: 214 84% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Syne', sans-serif;
+  }
+}
+
+@layer utilities {
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .gradient-card {
+    background: var(--gradient-card);
+  }
+
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .gradient-secondary {
+    background: var(--gradient-secondary);
+  }
+
+  .gradient-danger {
+    background: var(--gradient-danger);
+  }
+
+  .gradient-sidebar {
+    background: var(--gradient-sidebar);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-md);
+  }
+
+  .text-gradient {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-gradient-hero {
+    background: linear-gradient(135deg, hsl(195 85% 75%) 0%, hsl(174 72% 70%) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .glass {
+    background: hsl(0 0% 100% / 0.08);
+    backdrop-filter: blur(12px);
+    border: 1px solid hsl(0 0% 100% / 0.12);
+  }
+
+  .glass-card {
+    background: hsl(0 0% 100% / 0.95);
+    backdrop-filter: blur(20px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .status-normal {
+    color: hsl(var(--status-normal));
+  }
+
+  .status-warning {
+    color: hsl(var(--status-warning));
+  }
+
+  .status-critical {
+    color: hsl(var(--status-critical));
+  }
+
+  .bg-status-normal {
+    background-color: hsl(var(--status-normal) / 0.1);
+    color: hsl(var(--status-normal));
+  }
+
+  .bg-status-warning {
+    background-color: hsl(var(--status-warning) / 0.1);
+    color: hsl(var(--status-warning));
+  }
+
+  .bg-status-critical {
+    background-color: hsl(var(--status-critical) / 0.1);
+    color: hsl(var(--status-critical));
+  }
+
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--primary) / 0.3) transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--primary) / 0.3);
+    border-radius: 999px;
+  }
+}

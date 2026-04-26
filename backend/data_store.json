@@ -1,0 +1,279 @@
+{
+  "users": [
+    {
+      "user_id": "DOC-4892",
+      "password_hash": "sha256$80jVYoYh89j1nIyr2g+OsKp+BRSpC+dXECCxM28mwRM=",
+      "role": "doctor",
+      "doctor_id": "DOC-4892"
+    },
+    {
+      "user_id": "admin",
+      "password_hash": "sha256$JAvlGPq9JyTdtvBO6x2llnRI1+gxwIyPqCKAn3THIKk=",
+      "role": "admin"
+    }
+  ],
+  "doctors": [
+    {
+      "doctor_id": "DOC-4892",
+      "full_name": "Dr. Sarah Mitchell",
+      "specialty": "Cardiology",
+      "hospital": "Metro General Hospital",
+      "experience_years": 12,
+      "license_number": "LIC-CARD-2026-1182",
+      "active_patients": 4
+    }
+  ],
+  "doctor_patient_map": {
+    "DOC-4892": [
+      "PNX-84731",
+      "PNX-29183",
+      "PNX-57234",
+      "PNX-83920"
+    ]
+  },
+  "patients": [
+    {
+      "patient_id": "PNX-84731",
+      "user_id": "PT-84731",
+      "full_name": "Alex Johnson",
+      "age": 34,
+      "gender": "male",
+      "email": "alex.johnson@example.com",
+      "blood_group": "O+",
+      "condition": "Hypertension",
+      "risk": "Moderate",
+      "last_visit": "2026-03-07",
+      "previous_disease_history": [
+        "hypertension"
+      ],
+      "latest_vitals": {
+        "heart_rate": 82,
+        "systolic_bp": 135,
+        "diastolic_bp": 88,
+        "blood_sugar": 108,
+        "cholesterol": 195,
+        "ecg": "normal sinus rhythm",
+        "oxygen_level": 97
+      },
+      "recommendation": "Moderate cardiovascular risk. Continue blood pressure monitoring, maintain a low-sodium diet, and schedule routine follow-up in 2 weeks.",
+      "reports": []
+    },
+    {
+      "patient_id": "PNX-29183",
+      "user_id": "PT-29183",
+      "full_name": "Maria Chen",
+      "age": 58,
+      "gender": "female",
+      "email": "maria.chen@example.com",
+      "blood_group": "A+",
+      "condition": "Diabetes T2 + CAD",
+      "risk": "High",
+      "last_visit": "2026-03-08",
+      "previous_disease_history": [
+        "type 2 diabetes",
+        "coronary artery disease"
+      ],
+      "latest_vitals": {
+        "heart_rate": 96,
+        "systolic_bp": 154,
+        "diastolic_bp": 96,
+        "blood_sugar": 186,
+        "cholesterol": 242,
+        "ecg": "st depression",
+        "oxygen_level": 95
+      },
+      "recommendation": "High risk of cardiovascular deterioration. Recommend ECG review, lipid profile, HbA1c, medication adjustment, and cardiology consultation.",
+      "reports": []
+    },
+    {
+      "patient_id": "PNX-57234",
+      "user_id": "PT-57234",
+      "full_name": "Robert Davis",
+      "age": 47,
+      "gender": "male",
+      "email": "robert.davis@example.com",
+      "blood_group": "B+",
+      "condition": "Arrhythmia",
+      "risk": "Moderate",
+      "last_visit": "2026-03-04",
+      "previous_disease_history": [
+        "arrhythmia"
+      ],
+      "latest_vitals": {
+        "heart_rate": 108,
+        "systolic_bp": 128,
+        "diastolic_bp": 84,
+        "blood_sugar": 102,
+        "cholesterol": 201,
+        "ecg": "irregular qrs",
+        "oxygen_level": 96
+      },
+      "recommendation": "Moderate rhythm risk. Suggest repeat ECG, Holter monitoring, and review of anti-arrhythmic therapy adherence.",
+      "reports": []
+    },
+    {
+      "patient_id": "PNX-83920",
+      "user_id": "PT-83920",
+      "full_name": "Priya Sharma",
+      "age": 29,
+      "gender": "female",
+      "email": "priya.sharma@example.com",
+      "blood_group": "AB+",
+      "condition": "Anxiety + Palpitations",
+      "risk": "Low",
+      "last_visit": "2026-03-09",
+      "previous_disease_history": [
+        "anxiety"
+      ],
+      "latest_vitals": {
+        "heart_rate": 88,
+        "systolic_bp": 118,
+        "diastolic_bp": 76,
+        "blood_sugar": 92,
+        "cholesterol": 168,
+        "ecg": "normal",
+        "oxygen_level": 99
+      },
+      "recommendation": "Low acute cardiometabolic risk. Continue current management, monitor symptoms, and reinforce sleep and stress-control measures.",
+      "reports": []
+    }
+  ],
+  "federation": {
+    "current_round": 6,
+    "nodes": [
+      {
+        "id": "NODE-001",
+        "name": "Metro General Hospital",
+        "location": "Chennai",
+        "status": "training",
+        "patient_count": 1240,
+        "local_accuracy": 87.6,
+        "current_round": 6
+      },
+      {
+        "id": "NODE-002",
+        "name": "South City Care",
+        "location": "Bengaluru",
+        "status": "idle",
+        "patient_count": 980,
+        "local_accuracy": 85.9,
+        "current_round": 6
+      },
+      {
+        "id": "NODE-003",
+        "name": "Lakeside Multispeciality",
+        "location": "Hyderabad",
+        "status": "training",
+        "patient_count": 1135,
+        "local_accuracy": 86.8,
+        "current_round": 6
+      }
+    ],
+    "rounds": [
+      {
+        "round_number": 1,
+        "global_accuracy": 80.2,
+        "local_avg_accuracy": 76.3,
+        "loss": 0.55,
+        "nodes_participated": 3,
+        "timestamp": "2026-02-23T14:09:18Z"
+      },
+      {
+        "round_number": 2,
+        "global_accuracy": 82.0,
+        "local_avg_accuracy": 77.8,
+        "loss": 0.48,
+        "nodes_participated": 3,
+        "timestamp": "2026-02-26T14:09:18Z"
+      },
+      {
+        "round_number": 3,
+        "global_accuracy": 83.8,
+        "local_avg_accuracy": 79.3,
+        "loss": 0.41,
+        "nodes_participated": 3,
+        "timestamp": "2026-03-01T14:09:18Z"
+      },
+      {
+        "round_number": 4,
+        "global_accuracy": 85.6,
+        "local_avg_accuracy": 80.8,
+        "loss": 0.34,
+        "nodes_participated": 3,
+        "timestamp": "2026-03-04T14:09:18Z"
+      },
+      {
+        "round_number": 5,
+        "global_accuracy": 87.4,
+        "local_avg_accuracy": 82.3,
+        "loss": 0.27,
+        "nodes_participated": 3,
+        "timestamp": "2026-03-07T14:09:18Z"
+      },
+      {
+        "round_number": 6,
+        "global_accuracy": 89.2,
+        "local_avg_accuracy": 83.8,
+        "loss": 0.2,
+        "nodes_participated": 3,
+        "timestamp": "2026-03-10T14:09:18Z"
+      }
+    ],
+    "models": [
+      {
+        "id": "mdl-logreg-cardiac",
+        "name": "Cardio Risk Classifier",
+        "type": "Logistic Regression",
+        "status": "active",
+        "global_accuracy": 88.2,
+        "deployed_nodes": 3,
+        "deployed_at": "2026-03-10T14:09:18Z",
+        "version": "v1.6.0"
+      },
+      {
+        "id": "mdl-cnn-scan",
+        "name": "Scan Pattern Analyzer",
+        "type": "CNN",
+        "status": "active",
+        "global_accuracy": 84.9,
+        "deployed_nodes": 2,
+        "deployed_at": "2026-03-10T14:09:18Z",
+        "version": "v1.4.2"
+      },
+      {
+        "id": "mdl-lstm-vitals",
+        "name": "Vitals Sequence Monitor",
+        "type": "LSTM",
+        "status": "active",
+        "global_accuracy": 86.7,
+        "deployed_nodes": 3,
+        "deployed_at": "2026-03-10T14:09:18Z",
+        "version": "v1.5.1"
+      }
+    ]
+  },
+  "audit_logs": [
+    {
+      "id": "AUD-001",
+      "timestamp": "2026-03-10T14:09:18Z",
+      "round": "6",
+      "node_id": "NODE-001",
+      "action": "federated_round_completed",
+      "status": "success",
+      "metadata": {
+        "model_version": "v1.6.0"
+      }
+    },
+    {
+      "id": "AUD-002",
+      "timestamp": "2026-03-10T14:09:18Z",
+      "round": "6",
+      "node_id": "NODE-002",
+      "action": "model_validation_passed",
+      "status": "success",
+      "metadata": {
+        "accuracy": 85.9
+      }
+    }
+  ]
+}
