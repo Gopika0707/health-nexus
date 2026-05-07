@@ -5,6 +5,8 @@
 [functions]
   directory = "netlify/functions"
   node_bundler = "esbuild"
+  [functions.python]
+    framework = "fastapi"
 
 [[redirects]]
   from = "/api/*"
