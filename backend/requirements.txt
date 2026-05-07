@@ -8,3 +8,4 @@ sqlalchemy==2.0.35
 pymysql==1.1.1
 cryptography==43.0.1
 pydantic[email]==2.9.2
+mangum==0.17.0
